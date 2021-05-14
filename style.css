@@ -1,0 +1,166 @@
+.white {
+  color: white;
+}
+
+.yellow {
+  color: #fadcac;
+}
+
+.green {
+  color: #15d1a5;
+}
+
+.blue {
+  color: #00a0c3;
+}
+
+.blk-background {
+  background-color: black;
+}
+
+/*NAV SECTION*/
+
+.nav-colored {
+  background-color: #00a0c3;
+}
+.nav-transparent {
+  background-color: transparent;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 600;
+}
+.nav-link:hover {
+  color: white;
+  transition: 0.3s;
+}
+a#navbarDropdown {
+  color: white;
+}
+
+.dropdown-item:hover {
+  color: #00a0c3;
+  transition: 0.3s;
+}
+
+/*HERO SECTION*/
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("./images/hero.jpg");
+  min-height: 1000px;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.hero-txt {
+  margin-top: 20%;
+}
+.hero-btn {
+  background-color: transparent;
+  border-radius: 15px;
+  color: white;
+  border: 2px solid #00a0c3;
+  padding: 3px 20px;
+  font-weight: 600;
+}
+
+.hero-btn:hover {
+  background-color: white;
+  color: #00a0c3;
+  transition: 0.3s;
+}
+
+/*About pic*/
+.about-pic {
+  background-image: url("./images/kids.jpg");
+  min-height: 500px;
+  background-size: cover;
+}
+/*owner pic*/
+.owner-pic {
+  background-image: url("./images/celeste.jpeg");
+  min-height: 900px;
+  background-size: cover;
+  background-position: center;
+}
+.owner-pic2 {
+  background-image: url("./images/celeste2.png");
+  min-height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Students section*/
+
+.student-section {
+  min-height: 700px;
+  margin-top: 7%;
+}
+
+.student-text {
+  padding-bottom: 5%;
+}
+.student-text h2 {
+  font-size: 50px;
+}
+
+.students {
+  background-size: cover;
+  min-height: 700px;
+  background-position: center;
+}
+.child1 {
+  background-image: url("./images/child1.jpeg");
+}
+.child2 {
+  background-image: url("./images/child2.jpeg");
+}
+.child3 {
+  background-image: url("./images/child3.jpeg");
+}
+
+/*Footer*/
+i {
+  font-size: 25px;
+  padding: 10px;
+}
+
+i:hover,
+.policy:hover {
+  color: #00a0c3;
+  transition: 0.3s;
+}
+
+/*Mobile/tablet*/
+
+@media (max-width: 991px) {
+  .info-txt {
+    padding: 0px !important;
+  }
+  .owner-pic2 {
+    background-position: right;
+  }
+  .hero-btn {
+    float: none !important;
+    margin-bottom: 20px;
+  }
+  .hero-btn-2 {
+    text-align: center;
+  }
+  ul.nav {
+    justify-content: center;
+  }
+}
+
+/*mobile*/
+@media (max-width: 576px) {
+  .hero-txt {
+    margin-top: 50%;
+  }
+}
