@@ -45,7 +45,6 @@ a#navbarDropdown {
 }
 
 /*HERO SECTION*/
-
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
     url("./images/hero.jpg");
